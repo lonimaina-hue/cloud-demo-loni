@@ -3,6 +3,11 @@ variable "client_id" {
   type        = string
 }
 
+variable "myname" {
+  description = "This for RG"
+  type        = string
+}
+
 variable "client_secret" {
   description = "Azure Client Secret"
   type        = string
