@@ -1,5 +1,5 @@
 resource "azurerm_resource_group" "example" {
-  name     = "rg-devops-demo"
+  name     = var.myname
   location = "Japan East"
 
   tags = {
